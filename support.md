@@ -733,3 +733,20 @@ L'Open Source Intelligence (OSINT) désigne la collecte et l'analyse d'informati
 </div>
 
 ---
+
+## Techniques de Hacking
+#### Reconnaissance
+
+<center>
+<img src="./assets/demo.gif" width="300px">
+</center>
+
+<div style="font-size:25px">
+
+- Autre outils reconnaissance : 
+   - Maltego
+   - Recon-ng
+
+</div>
+
+---
