@@ -750,3 +750,746 @@ L'Open Source Intelligence (OSINT) désigne la collecte et l'analyse d'informati
 </div>
 
 ---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:35px">
+
+- La phase de scanning, ou balayage, est une étape cruciale dans le processus de test d'intrusion (pentest). 
+- Elle intervient après la phase de reconnaissance (reconnaissance passive et active) et vise à identifier les points d'entrée potentiels que l'attaquant pourrait exploiter. 
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:35px">
+
+Le scanning est le processus de collecte d'informations sur les systèmes, les réseaux et les services en ligne pour découvrir des vulnérabilités potentielles. Cela inclut l'identification des hôtes actifs, des ports ouverts, des services en cours d'exécution et des versions de logiciels, ainsi que des configurations de sécurité.
+
+---
+
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**La phase de scanning peut être décomposée en plusieurs sous-étapes :**
+
+</div>
+
+<br>
+
+<div style="font-size:25px">
+
+- **Scanning des ports :** Déterminer quels ports sur un hôte cible sont ouverts ou fermés. Cela aide à identifier les services actifs sur ces ports.
+- **Détection de services :** Identifier les services en cours d'exécution et les versions des logiciels sur les ports ouverts.
+- **Scanning des vulnérabilités :** Chercher des vulnérabilités connues dans les services et logiciels identifiés.
+- **Cartographie du réseau :** Obtenir une vue d'ensemble de l'architecture du réseau cible.
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Outils utilisés pour le scanning**
+
+</div>
+
+<br>
+
+<div style="font-size:30px">
+
+**Nmap :** Pour le scanning des ports, la détection de services, et les scripts NSE pour la détection de vulnérabilités.
+**Nessus :** Pour un scanning de vulnérabilités approfondi.
+**OpenVAS :** Alternative open-source à Nessus.
+**Masscan :** Pour le scanning de ports à très haute vitesse.
+
+
+</div>
+
+---
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Outils utilisés pour le scanning**
+
+</div>
+
+<br>
+
+<div style="font-size:30px">
+
+**Masscan :** Pour le scanning de ports à très haute vitesse.
+**Unicornscan :** Un scanner de réseau avancé pour une analyse et une reconnaissance plus rapide.
+**Hping :** Un outil de ligne de commande pour assembler et analyser des paquets TCP/IP.
+**Metasploit :** Framework pour tester les vulnérabilités découvertes et pour des scans de vulnérabilité avancés.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Nmap**
+
+</div>
+
+<br>
+
+<div style="font-size:30px">
+
+**Nmap (Network Mapper)** est un outil de scanner de réseau très puissant et polyvalent, largement utilisé dans le domaine de la sécurité informatique et du hacking éthique. Développé par Gordon Lyon, également connu sous le pseudonyme "Fyodor", Nmap est open source et disponible sous licence GNU GPL.
+
+
+</div>
+
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Nmap**
+
+</div>
+
+
+<div style="font-size:24px">
+
+1. **Scanning de ports** :
+   - Nmap permet de scanner les ports d'un ou plusieurs hôtes pour déterminer quels ports sont ouverts, fermés ou filtrés. Cela permet aux administrateurs système et aux chercheurs en sécurité de comprendre la topologie du réseau et d'identifier les services exposés.
+
+2. **Détection de services et de versions** :
+   - En plus de scanner les ports, Nmap peut détecter les services tournant sur ces ports et même déterminer les versions des logiciels utilisés. Cette fonctionnalité est cruciale pour évaluer la sécurité des systèmes en identifiant les services vulnérables ou obsolètes.
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+
+
+<div style="font-size:33px">
+
+**Nmap**
+
+</div>
+
+
+<div style="font-size:24px">
+
+3. **Détection d'hôtes actifs** :
+   - Nmap peut être utilisé pour détecter quels hôtes sont actifs sur un réseau donné en utilisant des techniques telles que les requêtes ARP, les paquets ICMP, et d'autres méthodes de découverte de réseau.
+
+4. **Scripts Nmap (NSE - Nmap Scripting Engine)** :
+   - Nmap inclut un moteur de scripts (NSE) qui permet aux utilisateurs d'automatiser des tâches complexes telles que la découverte de vulnérabilités, l'exploitation de services faibles, la récupération d'informations supplémentaires sur les hôtes, etc. Ces scripts sont écrits en Lua et peuvent être personnalisés pour répondre aux besoins spécifiques de l'utilisateur.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+
+
+<div style="font-size:33px">
+
+**Nmap**
+
+</div>
+
+
+<div style="font-size:24px">
+
+5. **Options avancées de scan** :
+   - Nmap offre une gamme d'options avancées pour personnaliser les scans, y compris la fragmentation de paquets pour contourner les systèmes de détection d'intrusion (IDS), l'utilisation de faux paquets pour masquer l'origine du scan, le scan de tous les ports (de 1 à 65535), etc.
+
+6. **Utilisation légale et éthique** :
+   - Nmap est largement utilisé dans le cadre du hacking éthique pour évaluer la sécurité des réseaux et des systèmes informatiques. Cependant, il est essentiel d'utiliser Nmap de manière éthique et légale, avec l'autorisation appropriée, pour éviter tout problème juridique.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Utilisations courantes de Nmap :**
+
+</div>
+
+<div style="font-size:28px">
+
+- **Audit de sécurité** : Évaluation des vulnérabilités et des configurations de sécurité des réseaux et des systèmes.
+- **Gestion des réseaux** : Découverte de la topologie du réseau et gestion des périphériques connectés.
+- **Réponse aux incidents** : Utilisation lors d'incidents de sécurité pour identifier les points d'entrée potentiels et les activités suspectes.
+- **Surveillance de la sécurité** : Surveillance continue des ports et des services pour détecter les changements non autorisés.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Scans de base (Nmap) :**
+
+</div>
+
+<div style="font-size:24px">
+
+1. **Scan de découverte de réseau (Ping Scan)** :
+   - **Commande**: `nmap -sn <cible>`
+   - **Description**: Cela envoie des paquets ICMP (ping) pour découvrir les hôtes actifs sur le réseau sans scanner les ports.
+
+2. **Scan TCP SYN (Half-open Scan)** :
+   - **Commande**: `nmap -sS <cible>`
+   - **Description**: Envoie des paquets SYN pour déterminer quels ports sont ouverts sur un hôte. Utile pour contourner les pare-feu.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Scans de base (Nmap) :**
+
+</div>
+
+<div style="font-size:24px">
+
+3. **Scan TCP Connect** :
+   - **Commande**: `nmap -sT <cible>`
+   - **Description**: Établit une connexion TCP complète pour déterminer l'état des ports (ouverts, fermés, filtrés).
+
+4. **Scan UDP** :
+   - **Commande**: `nmap -sU <cible>`
+   - **Description**: Scan des ports UDP pour découvrir les services tournant sur ces ports.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Scans de base (Nmap) :**
+
+</div>
+
+<div style="font-size:24px">
+
+5. **Scan de versions (Service Version Detection)** :
+   - **Commande**: `nmap -sV <cible>`
+   - **Description**: Détermine les versions des services tournant sur les ports ouverts.
+
+6. **Scan de script NSE (Nmap Scripting Engine)** :
+   - **Commande**: `nmap -sC <cible>`
+   - **Description**: Exécute des scripts Nmap préconstruits pour détecter des vulnérabilités, récupérer des informations supplémentaires, etc.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Scans de base (Nmap) :**
+
+</div>
+
+<div style="font-size:24px">
+
+7. **Scan de sous-réseaux spécifiques (CIDR)** :
+    - **Commande**: `nmap <sous-réseau>`
+    - **Description**: Scan d'un sous-réseau complet pour découvrir tous les hôtes actifs.
+
+8. **Scan de tous les ports (All Ports)** :
+    - **Commande**: `nmap -p- <cible>`
+    - **Description**: Scan de tous les 65535 ports TCP pour découvrir les services disponibles.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Exemple de scan avec Nmap :**
+
+</div>
+
+<div style="font-size:24px">
+
+- **Scan d'un seul port** :
+  - **Commande**: `nmap -p <port> <cible>`
+  - **Description**: Scan d'un port spécifique sur une cible pour vérifier son état.
+
+- **Scan à partir d'un fichier de listes de cibles** :
+  - **Commande**: `nmap -iL <fichier>`
+  - **Description**: Scan de plusieurs cibles à partir d'un fichier contenant une liste d'adresses IP ou de noms de domaine.
+
+
+</div>
+
+---
+
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Remaques !! :**
+
+</div>
+
+<div style="font-size:30px">
+
+- Assurez-vous d'avoir l'autorisation appropriée avant de scanner un réseau ou un système.
+- Utilisez toujours Nmap de manière éthique et légale, en respectant la politique de sécurité de votre organisation ou les lois locales.
+- Pour des scans plus complexes ou des configurations spécifiques, consultez la documentation officielle de Nmap et explorez les options avancées de l'outil.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Remaques !! :**
+
+</div>
+
+<div style="font-size:30px">
+
+- Assurez-vous d'avoir l'autorisation appropriée avant de scanner un réseau ou un système.
+- Utilisez toujours Nmap de manière éthique et légale, en respectant la politique de sécurité de votre organisation ou les lois locales.
+- Pour des scans plus complexes ou des configurations spécifiques, consultez la documentation officielle de Nmap et explorez les options avancées de l'outil.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<center>
+<img src="./assets/demo.gif" width="500px">
+</center>
+
+<div style="font-size:40px">
+
+
+**Nmap**
+**Nikto**
+
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Comment se premunir contre le scanning de réseau ?**
+
+</div>
+
+<div style="font-size:30px">
+
+- Se prémunir contre le scanning de réseau comme Nmap est un défi, car ces outils sont conçus pour être très efficaces dans la détection des services et des ports ouverts. 
+- Cependant, il existe plusieurs mesures que vous pouvez prendre pour rendre le scanning plus difficile et pour protéger vos systèmes contre des intrusions potentielles
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+<br>
+
+<div style="font-size:33px">
+
+**Comment se premunir contre le scanning de réseau ?**
+
+</div>
+
+<div style="font-size:29px">
+
+- Utilisation de pare-feu
+- Utilisation d'IDS/IPS
+- Utilisation de port knocking
+- Changement de ports par défaut
+- Surveillance et Analyse de Logs
+- Réduction de la surface d'attaque
+- Utilisation de honeypots
+- 
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Scanning
+
+
+<div style="font-size:33px">
+
+**Exemple de Configuration de Pare-Feu avec iptables (Linux)**
+
+</div>
+
+<div style="font-size:25px">
+
+```sh
+
+# Bloquer tout le trafic entrant par défaut
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT ACCEPT
+
+# Autoriser le trafic entrant sur les ports nécessaires (par exemple, SSH et HTTP)
+iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+
+# Autoriser le trafic local (loopback)
+iptables -A INPUT -i lo -j ACCEPT
+
+# Autoriser le trafic entrant sur les connexions établies
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+```
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+
+
+<div style="font-size:33px">
+
+- L'exploitation ou le gain d'accès dans le cadre du hacking éthique se réfère à l'étape du processus de test de pénétration où l'attaquant simule une intrusion pour identifier et exploiter les vulnérabilités d'un système. 
+- L'objectif est de démontrer comment ces vulnérabilités peuvent être utilisées pour obtenir un accès non autorisé à des ressources sensibles.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+
+
+<div style="font-size:30px">
+
+1. **Identification des vulnérabilités**
+   
+- **Recherche des failles :** Utilisation d'outils automatisés et de techniques manuelles pour trouver des failles de sécurité dans le système, telles que des failles de sécurité logicielles, des mauvaises configurations ou des faiblesses dans les politiques de sécurité.
+- **Collecte d'informations :** Recueil d'informations sur le système cible pour comprendre sa structure, ses composants et les points faibles potentiels.
+
+
+</div>
+
+---
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:30px">
+
+2. **Exploitation des vulnérabilités**
+
+- **Développement ou utilisation d'exploits :** Création ou utilisation d'exploits existants pour tirer parti des vulnérabilités identifiées. Cela peut inclure des scripts, des outils ou des techniques spécifiques à la vulnérabilité.
+- **Exécution des exploits :** Lancer les exploits sur le système cible pour obtenir un accès non autorisé. Cela peut inclure des attaques de type injection SQL, exploitation de failles de configuration, ou attaques de type "buffer overflow".
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:30px">
+
+3. **Escalade des privilèges**
+
+- **Obtention de privilèges élevés :** Une fois un accès initial obtenu, l'attaquant tente d'obtenir des privilèges plus élevés pour accéder à des ressources sensibles ou prendre un contrôle complet du système.
+- **Exploration latérale :** Mouvement latéral dans le réseau pour trouver d'autres systèmes vulnérables ou obtenir des données supplémentaires.
+
+</div>
+
+---
+
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:30px">
+
+3. **Escalade des privilèges**
+
+- **Obtention de privilèges élevés :** Une fois un accès initial obtenu, l'attaquant tente d'obtenir des privilèges plus élevés pour accéder à des ressources sensibles ou prendre un contrôle complet du système.
+- **Exploration latérale :** Mouvement latéral dans le réseau pour trouver d'autres systèmes vulnérables ou obtenir des données supplémentaires.
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Quels outils pour la phase d'exploitation ?**
+
+</div>
+
+<br>
+
+<div style="font-size:28px">
+
+- **Metasploit Framework :** Un outil de test de pénétration qui permet aux utilisateurs de découvrir, de valider et d'exploiter des vulnérabilités. Il offre une vaste bibliothèque d'exploits.
+- **BeEF (Browser Exploitation Framework) :** Un outil axé sur l'exploitation des vulnérabilités des navigateurs web.
+- **SQLMap :** Un outil automatisé pour détecter et exploiter les vulnérabilités d'injection SQL dans les applications web.
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Le Metasploit Framework**
+
+</div>
+
+<br>
+
+<div style="font-size:30px">
+
+Le Metasploit Framework est l'un des outils les plus utilisés pour le test de pénétration et l'exploitation de vulnérabilités. Développé par Rapid7, Metasploit fournit une plateforme flexible pour tester la sécurité des systèmes en simulant des attaques réelles.
+
+</div>
+
+---
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Fonctionnalités Principales de Metasploit**
+
+</div>
+
+
+<div style="font-size:30px">
+
+1. **Bibliothèque d'Exploits :**
+
+- Metasploit contient une vaste collection d'exploits pour diverses vulnérabilités connues dans les systèmes, les applications web, et les services réseau.
+- Les exploits sont constamment mis à jour par la communauté et par Rapid7.
+
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Fonctionnalités Principales de Metasploit**
+
+</div>
+
+
+<div style="font-size:30px">
+
+
+2. **Payloads :**
+
+- Payloads Statiques : Incluent des commandes simples à exécuter sur la machine cible.
+- Meterpreter : Un payload avancé qui permet un contrôle interactif sur la machine compromise, offrant des fonctionnalités comme l'escalade de privilèges, le dumping de mots de passe, et l'accès à la webcam.
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Fonctionnalités Principales de Metasploit**
+
+</div>
+
+
+<div style="font-size:30px">
+
+
+2. **Payloads :**
+
+- Payloads Statiques : Incluent des commandes simples à exécuter sur la machine cible.
+- Meterpreter : Un payload avancé qui permet un contrôle interactif sur la machine compromise, offrant des fonctionnalités comme l'escalade de privilèges, le dumping de mots de passe, et l'accès à la webcam.
+
+</div>
+
+---
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Fonctionnalités Principales de Metasploit**
+
+</div>
+
+
+<div style="font-size:30px">
+
+
+3. **Encoders et NOPS :**
+
+- Encoders : Utilisés pour éviter la détection par les systèmes de détection d'intrusion (IDS) en obfusquant le payload.
+- NOPS : Utilisés pour stabiliser les exploits en remplissant l'espace mémoire avec des instructions NOP (No Operation).
+
+</div>
+
+---
+
+## Techniques de Hacking
+#### Exploitation
+
+<br>
+
+<div style="font-size:33px">
+
+**Fonctionnalités Principales de Metasploit**
+
+</div>
+
+
+<div style="font-size:27px">
+
+
+4. **Auxiliary Modules :**
+
+- Incluent une variété d'outils pour les tâches comme le scanning de vulnérabilités, le fuzzing, le sniffing, et le DoS (Denial of Service).
+
+5. **Post-Exploitation Modules :**
+
+- Permettent de maintenir l'accès, d'extraire des informations sensibles, et de pivoter vers d'autres systèmes dans le réseau.
+</div>
+
+---
